@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #dadddf;
+}
+
+.container{
+    width: 70%;
+    height: 600px;
+    background-color:rgb(0, 0, 0);
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.main{
+    width: 80%;
+    height: 75%;
+    background-color: rgb(0, 0, 0);
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right{
+    background-image: url(asset/pic.png);
+    width: 40%;
+    height: 100%;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left{
+    background-color: rgb(0, 0, 0);
+    width: 50%;
+    height: 100%;
+    color: white;
+    padding: 0px 10px;
+}
+
+.heading{
+    display: flex;
+    align-items: start;
+}
+
+.heading > h1{
+    font-weight:500;
+    font-size: 28px;
+}
+
+.heading > img{
+    margin-left: 10px;
+}
+
+.left p{
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 20px;
+    word-spacing: 1px;
+}
+
+#google-sign {
+    width: 100%;
+    height: 46px;
+    border-radius: 50px;
+    border: 1px solid rgb(85, 83, 83); 
+    margin-top: 30px;
+    background-color: rgb(21, 21, 21);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#google-sign > a{
+    font-weight: 500;
+    text-decoration: none; 
+    font-size: 14px; 
+    color: white;
+}
+
+.data{
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.data > input {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid deepskyblue; 
+    outline: none;
+    color: white;
+}
+
+.box{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+
+.chk {
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    background-color: transparent;
+}
+
+.box a{
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    padding: 10px 30px;
+    margin-top: 12px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+
+#para{
+    margin-top: 12px;
+}
+
+#para > a{
+    color: white;
+    text-decoration: none;
+    color: blue;
+}
